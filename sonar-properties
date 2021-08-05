@@ -1,0 +1,10 @@
+sonar.projectKey=maven-basic
+sonar.projectName=maven-basic
+sonar.projectVersion=1.0
+
+sonar.sources=/home/jenkins/workspace/Jenkins-maven
+sonar.java.binaries=/home/jenkins/workspace/Jenkins-maven/target/classes
+sonar.sourceEncoding=UTF-8
+sonar.host=http://3.90.190.111:9000/
+sonar.login=75eef60b2b032f922061c8e19655788cb2129309
+sonar.coverage.jacoco.xmlReportPaths=/home/jenkins/workspace/Jenkins-maven/target/site/jacoco/jacoco.xml
