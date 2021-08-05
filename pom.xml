@@ -69,13 +69,13 @@
             <executions>
               <execution>
                 <id>prepare-agent</id>
-		<phase>test</phase>
                 <goals>
                   <goal>prepare-agent</goal>
                 </goals>
               </execution>
               <execution>
                 <id>report</id>
+		<phase>test</phase>
                 <goals>
                   <goal>report</goal>
                 </goals>
