@@ -59,7 +59,7 @@
       </activation>
       <properties>
 	<sonar.host.url>http://3.90.190.111:9000</sonar.host.url>
-	<sonar.coverage.jacoco.xmlReportPaths>/home/jenkins/workspace/Jenkins-maven/target/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+	<sonar.coverage.jacoco.xmlReportPaths>/home/jenkins/workspace/Jenkins-maven/target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
       </properties>
       <build>
         <plugins>
