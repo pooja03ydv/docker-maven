@@ -1,11 +1,18 @@
 package com.acme.basic;
 
-import org.junit.Test;
+public class HelloWorld
+{
 
-public class HelloWorldTest {
+    private final String message = "Hello World!";
 
-  @Test
-  public void sayHello() {
-    new HelloWorld().sayHello();
-  }
+    public HelloWorld() {}
+
+    public static void main(String[] args) {
+        System.out.println(new HelloWorld().getMessage());
+    }
+
+    private final String getMessage() {
+        return message;
+    }
+
 }
