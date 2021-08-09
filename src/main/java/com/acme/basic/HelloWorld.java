@@ -1,13 +1,18 @@
 package com.acme.basic;
 
-public class HelloWorld {
+public class HelloWorld
+{
 
-  void sayHello() {
-    System.out.println("Hello World!");
-  }
+    private final String message = "Hello World!";
 
-  void notCovered() {
-    System.out.println("This method is not covered by unit tests");
-  }
+    public HelloWorld() {}
+
+    public static void main(String[] args) {
+        System.out.println(new HelloWorld().getMessage());
+    }
+
+    private final String getMessage() {
+        return message;
+    }
 
 }
