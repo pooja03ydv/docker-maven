@@ -58,7 +58,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-	<sonar.host.url>http://3.94.195.69:9000</sonar.host.url>
+	<sonar.host.url>http://54.226.234.170:9000</sonar.host.url>
 	<sonar.coverage.jacoco.xmlReportPaths>/home/jenkins/workspace/Jenkins-maven/target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	<sonar.projectKey>maven-test</sonar.projectKey>      
       </properties>
