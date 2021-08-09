@@ -44,7 +44,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>main.java.com.acme.basic</mainClass>
+              <mainClass>com.acme.basic.HelloWorld</mainClass>
             </manifest>
           </archive>
         </configuration>
