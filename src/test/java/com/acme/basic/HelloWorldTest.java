@@ -1,18 +1,49 @@
 package com.acme.basic;
 
-public class HelloWorld
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+import static org.junit.Assert.*;
+
+/**
+ * Unit test for simple App.
+ */
+public class HelloWorldTest
 {
 
-    private final String message = "Hello World!";
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
-    public HelloWorld() {}
-
-    public static void main(String[] args) {
-        System.out.println(new HelloWorld().getMessage());
+    @Before
+    public void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    private final String getMessage() {
-        return message;
+    @Test
+    public void testHelloWorldTestConstructor() {
+        try {
+            new HelloWorld();
+        } catch (Exception e) {
+            fail("Construction failed.");
+        }
+    }
+
+    @Test
+    public void testAppMain()
+    {
+        HelloWorld.main(null);
+        try {
+            assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
+        } catch (AssertionError e) {
+            fail("\"message\" is not \"Hello World!\"");
+        }
+    }
+
+    @After
+    public void cleanUpStreams() {
+        System.setOut(null);
     }
 
 }
+
