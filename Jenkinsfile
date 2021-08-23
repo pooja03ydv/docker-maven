@@ -2,7 +2,7 @@ pipeline{
     
     environment { 
 
-        registry = "poyadav3/Firstapp"
+        registry = "poyadav3/firstapp"
         registryCredential = 'dockerhub_id' 
 
         dockerImage = '' 
@@ -95,7 +95,7 @@ pipeline{
      
        stage('container'){
            steps {
-               sh "docker run poyadav3/Firstapp:$BUILD_NUMBER"
+               sh "docker run poyadav3/firstapp:$BUILD_NUMBER"
            }
 
        }
