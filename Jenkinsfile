@@ -95,7 +95,7 @@ pipeline{
      
        stage('container'){
            steps {
-               sh "docker run poyadav3/firstapp:$BUILD_NUMBER"
+               sh "docker pull poyadav3/firstapp:$BUILD_NUMBER"
            }
 
        }
