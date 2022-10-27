@@ -1,0 +1,21 @@
+{
+  "CHANGELOG.md": "9f659b56c3855cf83c8756aa6b2ca808",
+  "Gemfile": "77cb3c5ad5bce36acff37805953a75c0",
+  "LICENSE": "86d3f3a95c324c9479bd8986968f4327",
+  "README.md": "c618084ec99c635d6c0abf926e62fae6",
+  "REFERENCE.md": "0d481714fbcbb3b45d9dad988e192f42",
+  "Rakefile": "2c0640724b348d5f97771732766e398f",
+  "appveyor.yml": "4aa690537aadcdd9341e0e3cca957d38",
+  "data/common.yaml": "069fc014f8cc2c69eaea3e0d5f190669",
+  "examples/simple_example.pp": "647c5080c5dbc2f7958eccb99260622e",
+  "hiera.yaml": "b13568f83ed354ead5c75d742cdd1b5a",
+  "lib/puppet/functions/config_endpoint.rb": "c083fa7ccdcbe9e810e1a59973d15e53",
+  "lib/puppet/functions/get_artifact_info.rb": "a45beb8b44c0719904ee92a36118e1df",
+  "manifests/artifact.pp": "0ef0760db07cb5a57681577041470029",
+  "manifests/init.pp": "cefb932013739dff318d40f5faf687f0",
+  "metadata.json": "f828be3890cabaeb391052be01002a19",
+  "spec/classes/artifactory_spec.rb": "99a3947b744cb5eb83fa8c0dba219379",
+  "spec/default_facts.yml": "973bd7e9b429cde3c8d45d57c2fa21ed",
+  "spec/defines/artifact_spec.rb": "c6abca2ea146e99f7bd9eb292fa3c874",
+  "spec/spec_helper.rb": "715cdaad717518e17f71dde207cccda7"
+}

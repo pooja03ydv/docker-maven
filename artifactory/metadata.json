@@ -1,0 +1,34 @@
+{
+  "name": "stdtom-artifactory",
+  "version": "0.1.0",
+  "author": "stdtom",
+  "summary": "A Puppet module which downloads artifacts from an Artifactory repository.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/stdtom/artifactory",
+  "project_page": "https://github.com/stdtom/artifactory",
+  "issues_url": "https://github.com/stdtom/artifactory/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.13.1 < 7.0.0"
+    }
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "15"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.16.0",
+  "template-url": "pdk-default#1.16.0",
+  "template-ref": "tags/1.16.0-0-gaf44904"
+}

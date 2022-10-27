@@ -8,7 +8,18 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Example of basic Maven project</name>
-
+  <distributionManagement>
+	      <repository>
+		              <id>central</id>
+			              <name>a0oetqyb0ldlx-artifactory-primary-0-releases</name>
+				              <url>https://techdevops.jfrog.io/artifactory/maven-basic</url>
+					          </repository>
+						      <snapshotRepository>
+							              <id>snapshots</id>
+								              <name>a0oetqyb0ldlx-artifactory-primary-0-snapshots</name>
+									              <url>https://techdevops.jfrog.io/artifactory/maven-basic</url>
+										          </snapshotRepository>
+										  </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
