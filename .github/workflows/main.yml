@@ -26,10 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Set up MySQL
-      run: |
-       sudo /etc/init.d/mysql start
-       mysql -e 'CREATE DATABASE ${{ secrets.DB_DATABASE }};' -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e 'show databases;' -e 'use ${{ secrets.DB_DATABASE }};'  
+   
       
     - name: Build with Maven
       run: |
