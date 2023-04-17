@@ -7,6 +7,8 @@ on:
   #Trigger that allows manually trigger a GitHub Action
   #push:
   pull_request:
+     types:
+         - opened
      branches:
          - master
   #workflow_dispatch:
