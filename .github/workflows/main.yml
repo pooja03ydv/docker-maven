@@ -5,7 +5,10 @@ on:
   #schedule:
    # - cron: "2 * * * *"
   #Trigger that allows manually trigger a GitHub Action
-  push:
+  #push:
+  pull_request:
+     branches:
+         - master
   #workflow_dispatch:
   
 jobs:
